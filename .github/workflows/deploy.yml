@@ -44,7 +44,7 @@ jobs:
       - name: Checkout home-infra
         uses: actions/checkout@v4
         with:
-          repository: yashas809/home-infra
+          repository: yashaschandra-ship-it/home-infra
           token: ${{ secrets.HOME_INFRA_PUSH_TOKEN }}
 
       - name: Bump image tag
